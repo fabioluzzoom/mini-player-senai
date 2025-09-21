@@ -1,0 +1,16 @@
+{
+  "name": "mini-ranking-senai",
+  "version": "1.0.0",
+  "description": "Mini ranking de músicas com Node.js, Express e SQLite",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Fabio Luz",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
